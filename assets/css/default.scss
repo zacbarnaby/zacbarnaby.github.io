@@ -1,0 +1,37 @@
+@import "home";
+@import "reset";
+@import "animations";
+@import "ionicons/ionicons";
+@import "flexboxgrid.min.css";
+
+html, body {
+  height: 100%;
+}
+
+::selection {
+  background: black;
+}
+
+body {
+  font-family: Montserrat;
+  color: white;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+#container {
+  max-width: 1170px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.typed-cursor {
+  display: inline-block;
+}
+
+.typewriter-char {
+  &:nth-of-type(5) {
+    font-weight: 600;
+  }
+}
