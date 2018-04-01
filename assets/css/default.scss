@@ -1,8 +1,11 @@
+@import "hover/_effects";
 @import "home";
 @import "reset";
 @import "animations";
 @import "ionicons/ionicons";
+@import "hamburgers/hamburgers";
 @import "flexboxgrid.min.css";
+@import "responsive";
 
 html, body {
   height: 100%;
@@ -10,6 +13,7 @@ html, body {
 
 ::selection {
   background: black;
+  color: #f44283;
 }
 
 body {
@@ -24,6 +28,14 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 20px;
+
+  &.small {
+    max-width: 600px;
+  }
+
+  &.medium {
+    max-width: 800px;
+  }
 }
 
 .typed-cursor {

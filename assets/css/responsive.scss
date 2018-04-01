@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1170px) {
+  #skills #container {
+    padding: 140px 30px !important;
+  }
+  #resume #container {
+    padding: 0 30px !important;
+  }
+
+  ul#types a {
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  #portfolio a {
+    margin-bottom: 20px;
+    display: block;
+  
+  }
+
+  #container input[type="text"], input[type="email"] {
+    margin-bottom: 20px;
+  }
+
+  #container #subject {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  section#skills .skill {
+    min-height: 173px !important;
+  }
+}
+
+@media only screen and (max-width: 1006px) {
+  section#skills .skill {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  ul#nav {
+    display: none;
+  }
+
+  ul#mobile {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  #typed {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #typed {
+    font-size: 3em;
+  }
+
+  #about #container {
+    padding: 0 30px !important;
+    text-align: justify;
+  }
+
+  section#about .wrapper {
+    width: 100% !important;
+  }
+}
